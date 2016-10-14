@@ -1,0 +1,38 @@
+<header class="site-header">
+  <!-- Navigation -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="{{ url_for('main.home') }}" class="brand-logo center">Flask-Skeleton</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <ul class="left hide-on-med-and-down">
+          <li><a href="{{ url_for('main.about') }}">About</a></li>
+          {% if current_user.is_authenticated %}
+           <li><a href="{{ url_for('user.members') }}">Members</a></li>
+          {% endif %}
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          {% if current_user.is_authenticated %}
+            <li><a href="{{ url_for('user.logout') }}">Logout</a></li>
+          {% else %}
+            <li><a href="{{ url_for('user.login') }}"><span class="glyphicon glyphicon-user"></span>&nbsp;Register/Login</a></li>
+          {% endif %}
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="{{ url_for('main.about') }}">About</a></li>
+          {% if current_user.is_authenticated %}
+           <li><a href="{{ url_for('user.members') }}">Members</a></li>
+          {% endif %}
+          {% if current_user.is_authenticated %}
+            <li><a href="{{ url_for('user.logout') }}">Logout</a></li>
+          {% else %}
+            <li><a href="{{ url_for('user.login') }}"><span class="glyphicon glyphicon-user"></span>&nbsp;Register/Login</a></li>
+          {% endif %}
+        </ul>
+        <!-- /nav-wrapper -->
+      </div>
+    </nav>
+    <!-- /navbar-fixed -->
+  </div>
+</header>
