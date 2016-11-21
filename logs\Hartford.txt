@@ -1,0 +1,158 @@
+2016-11-19 17:00:09,012 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:09,667 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.7634935,-72.6830522&radius=10000&type=restaurant&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 10436
+2016-11-19 17:00:09,720 - DEBUG - Au Bon Pain not rated in google, skipping from list
+2016-11-19 17:00:09,753 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:10,313 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/cities?lat=41.7634935&lon=-72.6830522 HTTP/1.1" 200 191
+2016-11-19 17:00:10,325 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:11,337 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?entity_id=544&entity_type=city&count=20&sort=rating&order=desc HTTP/1.1" 200 3040
+2016-11-19 17:00:11,358 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:12,243 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.8802480000,-72.7998590000&radius=500&keyword=926%20Hopmeadow%20St,%20Simsbury,%20CT%2006070&name=Little%20City%20Pizza&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 991
+2016-11-19 17:00:12,247 - DEBUG - 1 result(s) found for Little City Pizza in google
+2016-11-19 17:00:12,252 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:12,980 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.8106890000,-72.5573800000&radius=500&keyword=100%20Evergreen%20Way,%20South%20Windsor,%20CT%2006074&name=Burtons%20Grill&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 937
+2016-11-19 17:00:12,985 - DEBUG - 1 result(s) found for Burtons Grill in google
+2016-11-19 17:00:12,990 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:13,827 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.9350660000,-72.5794200000&radius=500&keyword=142%20North%20Rd,%20East%20Windsor,%20CT%2006088&name=Stir%20The%20Pot&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 964
+2016-11-19 17:00:13,831 - DEBUG - 1 result(s) found for Stir The Pot in google
+2016-11-19 17:00:13,836 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:14,725 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.9653320000,-72.3272070000&radius=500&keyword=64%20West%20Stafford%20Rd,%20Stafford%20Springs,%20CT%2006076&name=Basils&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 977
+2016-11-19 17:00:14,729 - DEBUG - 1 result(s) found for Basil's in google
+2016-11-19 17:00:14,735 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:15,535 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.2923600000,-72.3831890000&radius=500&keyword=787%20Boston%20Post%20Road,%20Old%20Saybrook,%20CT%2006475&name=JAMSS&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 952
+2016-11-19 17:00:15,539 - DEBUG - 2 result(s) found for JAMSS in google
+2016-11-19 17:00:15,544 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:16,559 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.8766460000,-72.6092650000&radius=500&keyword=255%20S%20Main%20St,%20East%20Windsor,%20CT%2006088&name=Henrys%20Pizzeria&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 980
+2016-11-19 17:00:16,564 - DEBUG - 1 result(s) found for Henry's Pizzeria in google
+2016-11-19 17:00:16,569 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:17,480 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.7577530000,-72.7208330000&radius=500&keyword=138%20Park%20Rd,%20West%20Hartford,%20CT%2006119&name=Plan%20B%20Burger%20Bar&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 979
+2016-11-19 17:00:17,484 - DEBUG - 1 result(s) found for Plan B Burger Bar in google
+2016-11-19 17:00:17,490 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:18,315 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.7860980000,-72.4846210000&radius=500&keyword=840%20Middle%20Tpke%20E,%20Manchester,%20CT%2006040&name=Shady%20Glen&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 907
+2016-11-19 17:00:18,320 - DEBUG - 1 result(s) found for Shady Glen in google
+2016-11-19 17:00:18,325 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:19,323 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.7596610000,-72.7441940000&radius=500&keyword=78%20Lasalle%20Rd,%20West%20Hartford,%20CT%2006107&name=Restaurant%20Bricco&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 1479
+2016-11-19 17:00:19,328 - DEBUG - 2 result(s) found for Restaurant Bricco in google
+2016-11-19 17:00:19,333 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:20,204 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.7690620000,-72.6438320000&radius=500&keyword=860%20Main%20Street,%20East%20Hartford,%20CT%2006108&name=Piolyn%20Junior%20%20Peruvian%20Restaurant&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 983
+2016-11-19 17:00:20,209 - DEBUG - 1 result(s) found for Piolyn Junior - Peruvian Restaurant in google
+2016-11-19 17:00:20,214 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:20,939 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.6467610000,-72.8727190000&radius=500&keyword=1103%20Queen%20Street,%20Southington,%20CT%2006489&name=Somewhere%20in%20Bangkok&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 927
+2016-11-19 17:00:20,943 - DEBUG - 1 result(s) found for Somewhere in Bangkok in google
+2016-11-19 17:00:20,949 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:21,819 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.8293270000,-72.4814090000&radius=500&keyword=435%20Hartford%20Tpke,%20Vernon%20Rockville,%20CT%2006066&name=Reins%20New%20York%20Style%20Deli&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 1014
+2016-11-19 17:00:21,823 - DEBUG - 1 result(s) found for Rein's New York Style Deli in google
+2016-11-19 17:00:21,827 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:22,751 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.6775500000,-72.8482220000&radius=500&keyword=143%20New%20Britain%20Ave,%20Plainville,%20CT%2006062&name=J%20Timothys%20Taverne&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 1002
+2016-11-19 17:00:22,755 - DEBUG - 1 result(s) found for J. Timothy's Taverne in google
+2016-11-19 17:00:22,761 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:23,522 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.6962053000,-72.7570101000&radius=500&keyword=30B%20Fenn%20Rd,%20Newington,%20CT%2006111&name=Sushi%20California&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 1491
+2016-11-19 17:00:23,526 - DEBUG - 2 result(s) found for Sushi California in google
+2016-11-19 17:00:23,531 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:24,206 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.8127940000,-72.6575980000&radius=500&keyword=349%20Windsor%20Ave,%20Windsor,%20CT%2006095&name=Wilson%20Pizza%20Palace&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 974
+2016-11-19 17:00:24,210 - DEBUG - 1 result(s) found for Wilson Pizza Palace in google
+2016-11-19 17:00:24,217 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:24,922 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.6969320000,-72.7230200000&radius=500&keyword=1096%20Main%20Street,%20Newington,%20CT%2006111&name=GoldBurgers&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 960
+2016-11-19 17:00:24,926 - DEBUG - 1 result(s) found for GoldBurgers in google
+2016-11-19 17:00:24,932 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:25,850 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.8630980000,-72.8098190000&radius=500&keyword=563%20Hopmeadow%20St,%20Simsbury,%20CT%2006070&name=Brookside%20Bagels&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 963
+2016-11-19 17:00:25,853 - DEBUG - 1 result(s) found for Brookside Bagels in google
+2016-11-19 17:00:25,857 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:26,631 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.7012470000,-72.8895520000&radius=500&keyword=372%20Scott%20Swamp%20Rd,%20Farmington,%20CT%2006032&name=Joey%20Garlics%20Pizzeria&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 991
+2016-11-19 17:00:26,636 - DEBUG - 1 result(s) found for Joey Garlic's Pizzeria in google
+2016-11-19 17:00:26,642 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:27,413 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.7737590000,-72.5213180000&radius=500&keyword=623%20Main%20St,%20Manchester,%20CT%2006040&name=Coreys%20Catsup%20%20Mustard&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 924
+2016-11-19 17:00:27,418 - DEBUG - 1 result(s) found for Corey's Catsup & Mustard in google
+2016-11-19 17:00:27,423 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 17:00:28,744 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.7685690000,-72.5204830000&radius=500&keyword=981%20Main%20St,%20Manchester,%20CT%2006040&name=Mulberry%20Street%20Pizza&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 920
+2016-11-19 17:00:28,748 - DEBUG - 1 result(s) found for Mulberry Street Pizza in google
+2016-11-19 17:00:28,752 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:29,320 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=Max%20Downtown&lat=41.767007&lon=-72.67642699999999&radius=500&sort=rating HTTP/1.1" 200 885
+2016-11-19 17:00:29,326 - DEBUG - 3 results(s) found for Max Downtown in Zomato
+2016-11-19 17:00:29,331 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:29,973 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=m&m%20Bistro&lat=41.7691991&lon=-72.67565549999999&radius=500&sort=rating HTTP/1.1" 200 613
+2016-11-19 17:00:29,979 - DEBUG - 1 results(s) found for m&m Bistro in Zomato
+2016-11-19 17:00:30,008 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:30,746 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=McLadden's%20West%20Hartford&lat=41.759996&lon=-72.744609&radius=500&sort=rating HTTP/1.1" 200 963
+2016-11-19 17:00:30,752 - DEBUG - 3 results(s) found for McLadden's West Hartford in Zomato
+2016-11-19 17:00:30,756 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:31,256 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=Cosi&lat=41.7618318&lon=-72.7436195&radius=500&sort=rating HTTP/1.1" 200 639
+2016-11-19 17:00:31,262 - DEBUG - 1 results(s) found for Cosi in Zomato
+2016-11-19 17:00:31,267 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:31,769 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=Salute&lat=41.76556000000001&lon=-72.675989&radius=500&sort=rating HTTP/1.1" 200 618
+2016-11-19 17:00:31,775 - DEBUG - 1 results(s) found for Salute in Zomato
+2016-11-19 17:00:31,780 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:32,357 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=P.F.%20Chang's&lat=41.7237079&lon=-72.7617472&radius=500&sort=rating HTTP/1.1" 200 636
+2016-11-19 17:00:32,364 - DEBUG - 1 results(s) found for P.F. Chang's in Zomato
+2016-11-19 17:00:32,369 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:33,149 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=Sakura%20Garden%20Japanese%20Steakhouse%20-Glastonbury&lat=41.7121059&lon=-72.6057003&radius=500&sort=rating HTTP/1.1" 200 1055
+2016-11-19 17:00:33,155 - DEBUG - 4 results(s) found for Sakura Garden Japanese Steakhouse -Glastonbury in Zomato
+2016-11-19 17:00:33,161 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:41,891 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=Pietro's%20Pizza%20&%20Restaurant&lat=41.767884&lon=-72.672484&radius=500&sort=rating HTTP/1.1" 200 833
+2016-11-19 17:00:41,898 - DEBUG - 3 results(s) found for Pietro's Pizza & Restaurant in Zomato
+2016-11-19 17:00:41,933 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:42,498 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=Trumbull%20Kitchen&lat=41.7667208&lon=-72.6754406&radius=500&sort=rating HTTP/1.1" 200 861
+2016-11-19 17:00:42,504 - DEBUG - 3 results(s) found for Trumbull Kitchen in Zomato
+2016-11-19 17:00:42,510 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:43,184 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=Max%20Burger&lat=41.7585454&lon=-72.7441&radius=500&sort=rating HTTP/1.1" 200 960
+2016-11-19 17:00:43,191 - DEBUG - 3 results(s) found for Max Burger in Zomato
+2016-11-19 17:00:43,196 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:43,900 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=Firebox%20Restaurant&lat=41.7622024&lon=-72.6870225&radius=500&sort=rating HTTP/1.1" 200 928
+2016-11-19 17:00:43,905 - DEBUG - 3 results(s) found for Firebox Restaurant in Zomato
+2016-11-19 17:00:43,909 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:44,520 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=Courtyard%20Hartford%20Farmington&lat=41.717305&lon=-72.761774&radius=500&sort=rating HTTP/1.1" 200 1421
+2016-11-19 17:00:44,527 - DEBUG - 10 results(s) found for Courtyard Hartford Farmington in Zomato
+2016-11-19 17:00:44,532 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:45,190 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=b%20Glastonbury&lat=41.7119398&lon=-72.6056454&radius=500&sort=rating HTTP/1.1" 200 2434
+2016-11-19 17:00:45,198 - DEBUG - 20 results(s) found for b Glastonbury in Zomato
+2016-11-19 17:00:45,203 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:45,813 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=City%20Steam%20Brewery%20Cafe&lat=41.7678001&lon=-72.6729347&radius=500&sort=rating HTTP/1.1" 200 787
+2016-11-19 17:00:45,819 - DEBUG - 2 results(s) found for City Steam Brewery Cafe in Zomato
+2016-11-19 17:00:45,824 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:46,407 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=Vaughan's%20Public%20House&lat=41.7675543&lon=-72.67434109999999&radius=500&sort=rating HTTP/1.1" 200 767
+2016-11-19 17:00:46,414 - DEBUG - 2 results(s) found for Vaughan's Public House in Zomato
+2016-11-19 17:00:46,419 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:46,972 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=Olive%20Garden&lat=41.7256063&lon=-72.7592346&radius=500&sort=rating HTTP/1.1" 200 632
+2016-11-19 17:00:46,976 - DEBUG - 1 results(s) found for Olive Garden in Zomato
+2016-11-19 17:00:46,981 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:47,619 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=The%20Cheesecake%20Factory&lat=41.76033020000001&lon=-72.74035680000001&radius=500&sort=rating HTTP/1.1" 200 708
+2016-11-19 17:00:47,624 - DEBUG - 1 results(s) found for The Cheesecake Factory in Zomato
+2016-11-19 17:00:47,629 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:48,201 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=The%20Capital%20Grille&lat=41.7629087&lon=-72.6704176&radius=500&sort=rating HTTP/1.1" 200 634
+2016-11-19 17:00:48,207 - DEBUG - 1 results(s) found for The Capital Grille in Zomato
+2016-11-19 17:00:48,213 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 17:00:48,771 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?q=Bin%20228&lat=41.76658810000001&lon=-72.6775278&radius=500&sort=rating HTTP/1.1" 200 622
+2016-11-19 17:00:48,777 - DEBUG - 1 results(s) found for Bin 228 in Zomato
+2016-11-19 17:00:48,808 - INFO - 127.0.0.1 - - [19/Nov/2016 17:00:48] "GET /places/hartford HTTP/1.1" 200 -
+2016-11-19 17:00:48,850 - INFO - 127.0.0.1 - - [19/Nov/2016 17:00:48] "GET /static/bootstrap.css HTTP/1.1" 500 -
+2016-11-19 17:00:48,880 - INFO - 127.0.0.1 - - [19/Nov/2016 17:00:48] "GET /static/style.css HTTP/1.1" 500 -
+2016-11-19 17:00:48,906 - INFO - 127.0.0.1 - - [19/Nov/2016 17:00:48] "GET /static/jquery-latest.js HTTP/1.1" 500 -
+2016-11-19 17:00:48,934 - INFO - 127.0.0.1 - - [19/Nov/2016 17:00:48] "GET /static/jquery.tablesorter.min.js HTTP/1.1" 500 -
+2016-11-19 17:00:48,996 - INFO - 127.0.0.1 - - [19/Nov/2016 17:00:48] "GET /static/tablestuff.js HTTP/1.1" 500 -
+2016-11-19 17:00:49,034 - INFO - 127.0.0.1 - - [19/Nov/2016 17:00:49] "GET /static/restaurate.png HTTP/1.1" 500 -
+2016-11-19 17:00:49,232 - INFO - 127.0.0.1 - - [19/Nov/2016 17:00:49] "GET /static/tablestuff.js HTTP/1.1" 500 -
+2016-11-19 17:00:49,287 - INFO - 127.0.0.1 - - [19/Nov/2016 17:00:49] "GET /_debug_toolbar/static/css/toolbar.css?0.7307717446609217 HTTP/1.1" 200 -
+2016-11-19 17:09:46,184 - INFO - 127.0.0.1 - - [19/Nov/2016 17:09:46] "GET /_debug_toolbar/static/css/toolbar.css?0.7885409169876787 HTTP/1.1" 200 -
+2016-11-19 17:12:18,112 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:18] "GET / HTTP/1.1" 200 -
+2016-11-19 17:12:18,151 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:18] "GET /static/bootstrap.css HTTP/1.1" 500 -
+2016-11-19 17:12:18,170 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:18] "GET /static/style.css HTTP/1.1" 500 -
+2016-11-19 17:12:18,193 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:18] "GET /static/jquery-latest.js HTTP/1.1" 500 -
+2016-11-19 17:12:18,219 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:18] "GET /static/jquery.tablesorter.min.js HTTP/1.1" 500 -
+2016-11-19 17:12:18,243 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:18] "GET /static/tablestuff.js HTTP/1.1" 500 -
+2016-11-19 17:12:18,279 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:18] "GET /static/restaurate.png HTTP/1.1" 500 -
+2016-11-19 17:12:18,342 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:18] "GET /_debug_toolbar/static/css/toolbar.css?0.23120187712313767 HTTP/1.1" 200 -
+2016-11-19 17:12:21,133 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:21] "GET /home HTTP/1.1" 500 -
+2016-11-19 17:12:21,149 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:21] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-19 17:12:21,151 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:21] "GET /home?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-19 17:12:21,154 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:21] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-19 17:12:21,303 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:21] "GET /home?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-19 17:12:21,403 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:21] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-19 17:12:21,498 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:21] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-19 17:12:23,527 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:23] "GET / HTTP/1.1" 200 -
+2016-11-19 17:12:23,566 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:23] "GET /static/bootstrap.css HTTP/1.1" 500 -
+2016-11-19 17:12:23,590 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:23] "GET /static/style.css HTTP/1.1" 500 -
+2016-11-19 17:12:23,612 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:23] "GET /static/jquery-latest.js HTTP/1.1" 500 -
+2016-11-19 17:12:23,632 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:23] "GET /static/jquery.tablesorter.min.js HTTP/1.1" 500 -
+2016-11-19 17:12:23,650 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:23] "GET /static/tablestuff.js HTTP/1.1" 500 -
+2016-11-19 17:12:23,671 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:23] "GET /static/restaurate.png HTTP/1.1" 500 -
+2016-11-19 17:12:23,677 - INFO - 127.0.0.1 - - [19/Nov/2016 17:12:23] "GET /_debug_toolbar/static/css/toolbar.css?0.5968490351999387 HTTP/1.1" 200 -
+2016-11-19 17:13:03,927 - INFO -  * Detected change in '/Users/Rose/projects/flask-skeleton/project/server/main/views.py', reloading

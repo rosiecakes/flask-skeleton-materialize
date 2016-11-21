@@ -2,10 +2,92 @@
 
 {% block content %}
 
-<div class="body-content">
+<div class="welcome">
   <div class="row">
-    <h1>Welcome!</h1>
+
+    <div id="top">
+      <a href="/"><h1>RESTAURATE</h1></a>
+      <span>Improving the way you find food.</span>
+    </div>
+
+    <div class="row">
+      <form class="col s12" role="form" action="" method="POST">
+        <div class="row">
+          <div id="locationField" class="input-field col m6">
+            <input id="autocomplete" placeholder="Enter your city" onFocus="geolocate()" class="validate" type="text" name="location"></input>
+          </div>
+        </div>
+        <!-- the type="submit" class btn-submit  -->
+        <button class="btn waves-effect waves-red white teal-text" id="search">Search</button>
+        <button id="test" class="btn waves-effect waves-light white blue-text">Test</button>
+      </form>
+    </div>
   </div>
 </div>
+
+<div class="body-content">
+  <div class="row">
+    <!-- <div class="col s12 m7"> -->
+      <div class="card horizontal hvr-bounce-to-right">
+        <div class="card-image">
+          <img src="{{url_for('static', filename='images/taco.png')}}">
+          <a class="card-chip waves-effect waves-light btn">mexican</a>
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <h3>Brocos locos</h3>
+            <p>I am a very simple card. I am good at containing small bits of information.</p>
+          </div>
+          <div class="card-action">
+            <span class="left">
+              <i class="material-icons amber500">star</i>
+              <i class="material-icons amber500">star</i>
+              <i class="material-icons amber500">star</i>
+              <i class="material-icons amber500">star</i>
+              <i class="material-icons amber500">star_half</i></span>
+            <span class="right"><a href="#">Directions</a></span>
+          </div>
+        </div>
+        <div class="card-right">
+          <div class="row">
+            <div class="card-label">
+              <p>MONEY</p>
+              <p>$$</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card-label">
+              <p>GLUTEN</p>
+              <p>tons</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+  </div>
+</div>
+
+<script>
+var autocomplete;
+function initAutocomplete() {
+// Create the autocomplete object, restricting the search to geographical
+// location types.
+autocomplete = new google.maps.places.Autocomplete(
+    /** @type {!HTMLInputElement} */(document.getElementById('autocomplete')),
+    {types: ['geocode']});
+}
+function geolocate() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var geolocation = {
+        lat: position.coords.latitude,
+        lng: position.coords.longitude
+      };
+      autocomplete.setBounds(circle.getBounds());
+    });
+  }
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-Q4n0dg9bffHNHU7QSw1Or1ulzJzRP5E&libraries=places&callback=initAutocomplete" async defer></script>
 
 {% endblock %}

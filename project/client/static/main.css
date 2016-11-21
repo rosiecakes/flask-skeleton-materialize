@@ -1,4 +1,163 @@
-/* custom css */
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Cormorant+Garamond');
+
+html {
+  --red: #EF5350;
+  --darker-red: #C62828;
+  --teal: #80CBC4;
+  --light-teal: #B2EBF2;
+  border-left: 10px solid var(--teal);
+}
+
+body {
+  background-color: var(--darker-red);
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: .7s;
+  -moz-animation-duration: .7s;
+  animation-duration: .7s;
+}
+
+.body-content .row {
+  padding: 0;
+}
+
+.welcome h1, button {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+.welcome h1.top {
+  display: inline-block;
+  padding-right: 0.5em;
+  font-size: 3.0em;
+  padding: -20px;
+  margin: 0;
+  top: 0;
+}
+
+.welcome span {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2em;
+  color: white;
+}
+
+.welcome span.top {
+  display: inline-block;
+}
+
+.header-top {
+  margin-top: -70px;
+}
+
+#autocomplete {
+  color: white;
+}
+
+.card {
+  border-radius: 6px;
+  max-width: 735px;
+}
+
+.card-action {
+  border-top: 1px solid var(--light-teal) !important;
+}
+
+.card-action span a:not(btn) {
+  color: var(--teal) !important;
+}
+
+.card-image {
+  display: block;
+  border-radius: 6px 0 0 6px;
+  border-left: 10px solid var(--teal);
+  padding-left: 12px;
+  position: relative;
+}
+
+.card-chip {
+  /*padding: 0 0.5em 0 0.5em;*/
+  border-radius: 20px;
+  box-shadow: none;
+  background-color: var(--light-teal);
+}
+
+.card-chip:hover {
+  box-shadow: none;
+}
+
+.card:hover {
+  background-color: var(--teal);
+  color: white;
+}
+
+.card-label {
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+  width: 20%;
+  color: #757575;
+}
+
+.card-label p {
+  margin: 1.5em 0.5em 0 0;
+  /*padding: 0;*/
+  padding: 0 4em 0 0;
+  line-height: 1em;
+}
+
+.material-icons.amber500 {
+  color: #FFC107;
+}
+
+.hvr-bounce-to-right {
+  border-radius: 6px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-to-right:before {
+  border-radius: 6px;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #FF5252;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
+  color: white;
+  border-radius: 6px;
+}
+.hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
+  border-radius: 6px;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
 
 .site-content {
   padding-top: 75px;
@@ -35,4 +194,29 @@
     background-color: #f2dede;
     border-color: #ebcccc;
     color: #a94442;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    opacity: 1\9;
+  } to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+    opacity: 1\9;
+  } to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    opacity: 1\9;
+  } to {
+    opacity: 1;
+  }
 }

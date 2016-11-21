@@ -3,7 +3,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Flask Skeleton{% block title %}{% endblock %}</title>
+    <title>Such title{% block title %}{% endblock %}</title>
     <!-- meta -->
     <meta name="description" content="">
     <meta name="author" content="">
@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="{{url_for('static', filename='main.css')}}" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" type="image/png" href="{{url_for('static', filename='images/favicon.png')}}"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     {% block css %}{% endblock %}
   </head>
 
   <body>
 
-    {% include 'header.html' %}
+    <!-- % include 'header.html' % -->
 
     <div class="site-content">
       <div class="container">
@@ -55,7 +57,7 @@
 
     <br><br>
 
-    {% include 'footer.html' %}
+    <!-- % include 'footer.html' % -->
 
     <!-- scripts -->
     <script src="//code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>

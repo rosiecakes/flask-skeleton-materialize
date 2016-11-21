@@ -1,0 +1,39 @@
+{% extends "main/layout.html" %}
+
+{% block table %}
+  <div class="container">
+    <div class="results-table">
+      <h3>{{ location }}</h3>
+      <p>Search time: {{ elapsed_time }}s</p>
+      <table class="tablesorter" cellspacing="1">
+        <thead>
+            <tr>
+                <th>Restaurate Ranking</th>
+                <th>Restaurant Name</th>
+                <th>Average Rating</th>
+                <th>Zomato Rating</th>
+                <th>Google Rating</th>
+                <th>Zomato Reviews</th>
+                <th>Price Level</th>
+                <th>Cuisines</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- NOTE: Python 2.7 needs iteritems()! -->
+            {% for key, value in rest_dict.items() %}
+            <tr>
+                <td>{{ value['restaurate_rank'] }}</td>
+                <td>{{ key }}</td>
+                <td>{{ value['average_rating'] }}</td>
+                <td>{{ value['zomato_rating'] }}</td>
+                <td>{{ value['google_rating'] }}</td>
+                <td>{{ value['zomato_review_count'] }}</td>
+                <td>{{ value['zomato_price'] }}</td>
+                <td>{{ value['cuisines'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{% endblock %}

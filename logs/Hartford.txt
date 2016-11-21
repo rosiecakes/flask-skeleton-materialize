@@ -1,0 +1,16 @@
+2016-11-19 16:04:26,007 - DEBUG - Starting new HTTPS connection (1): maps.googleapis.com
+2016-11-19 16:04:27,516 - DEBUG - https://maps.googleapis.com:443 "GET /maps/api/place/nearbysearch/json?location=41.7634935,-72.6830522&radius=10000&keyword=hartford&type=restaurant&key=AIzaSyDBivIOXZTtH0z_jScwRrCgaIHe2bSvQk8 HTTP/1.1" 200 10219
+2016-11-19 16:04:27,530 - DEBUG - Hartford Restaurant Group not rated in google, skipping from list
+2016-11-19 16:04:27,572 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 16:04:28,787 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/cities?lat=41.7634935&lon=-72.6830522 HTTP/1.1" 200 191
+2016-11-19 16:04:28,797 - DEBUG - Starting new HTTPS connection (1): developers.zomato.com
+2016-11-19 16:04:29,787 - DEBUG - https://developers.zomato.com:443 "GET /api/v2.1/search?entity_id=544&entity_type=city&count=20&sort=rating&order=desc HTTP/1.1" 200 3040
+2016-11-19 16:04:29,810 - INFO - 127.0.0.1 - - [19/Nov/2016 16:04:29] "GET /places/hartford HTTP/1.1" 500 -
+2016-11-19 16:04:29,828 - INFO - 127.0.0.1 - - [19/Nov/2016 16:04:29] "GET /places/hartford?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2016-11-19 16:04:29,830 - INFO - 127.0.0.1 - - [19/Nov/2016 16:04:29] "GET /places/hartford?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2016-11-19 16:04:29,833 - INFO - 127.0.0.1 - - [19/Nov/2016 16:04:29] "GET /places/hartford?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2016-11-19 16:04:30,077 - INFO - 127.0.0.1 - - [19/Nov/2016 16:04:30] "GET /places/hartford?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2016-11-19 16:04:30,154 - INFO - 127.0.0.1 - - [19/Nov/2016 16:04:30] "GET /places/hartford?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-19 16:04:30,224 - INFO - 127.0.0.1 - - [19/Nov/2016 16:04:30] "GET /places/hartford?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2016-11-19 16:04:36,058 - INFO - 127.0.0.1 - - [19/Nov/2016 16:04:36] "GET / HTTP/1.1" 200 -
+2016-11-19 16:04:36,170 - INFO - 127.0.0.1 - - [19/Nov/2016 16:04:36] "GET /_debug_toolbar/static/css/toolbar.css?0.3403374941389896 HTTP/1.1" 200 -

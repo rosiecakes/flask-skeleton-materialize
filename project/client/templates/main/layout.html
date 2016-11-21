@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurate</title>
+    <link rel="stylesheet" href="../static/bootstrap.css" type="text/css"/>    
+    <link rel="stylesheet" href="../static/style.css" type="text/css"/>    
+    <script type="text/javascript" src="../static/jquery-latest.js"></script> 
+    <script type="text/javascript" src="../static/jquery.tablesorter.min.js"></script> 
+</head>
+<body>    
+  <header>
+    <div class="container">
+      <img src="../static/restaurate.png">
+<!--       <nav>
+        <ul class="nav">
+          <li><a href=".pages/contact.html">Contact</a></li>
+          <li><a href="./pages/about.html">About</a></li>   
+          <li class="active"><a href="#">Home</a></li>
+        </ul>
+      </nav> -->
+    </div>
+  </header>
+  <div class="jumbotron">
+    <div class="container">  
+      <div class="main">
+        <h1>Discover the best restaurants in your city</h1>
+        <form role="form" action="" method="POST">
+          <div class="form-group">
+            <input class="form-control" name="location" type="text" placeholder="Enter your city">
+          </div>
+          <button type="submit" class="btn btn-submit">Explore</button>
+        </form>
+<!--         {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <ul class=flashes>
+            {% for message in messages %}
+              <li>{{ message }}</li>
+            {% endfor %}
+            </ul>
+          {% endif %}
+        {% endwith %} -->
+    </div>
+  </div>
+  {% block table %}{% endblock %}
+  <script type="text/javascript" src="../static/tablestuff.js"></script> 
+</body>
+</html>
+
+

@@ -3,6 +3,16 @@
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
+GOOGLE_API_KEY = 'AIzaSyB-Q4n0dg9bffHNHU7QSw1Or1ulzJzRP5E'
+ZOMATO_API_KEY = '7d38a6c3811607de8a861188875d55d5'
+
+DATABASE_NAME = 'restaurants.db'
+
+zomato_header = {
+    'User-agent': 'My User Agent 1.0',
+    'Accept': 'application/json',
+    'user-key': ZOMATO_API_KEY
+}
 
 class BaseConfig(object):
     """Base configuration."""
